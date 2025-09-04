@@ -1,7 +1,7 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 100
 let numeroSecreto = gerarnum();
-let tentativas = 1;
+let tentativas = 2;
 mensagemInicial()
 
 
