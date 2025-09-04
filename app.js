@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10
+let numeroLimite = 100
 let numeroSecreto = gerarnum();
 let tentativas = 1;
 mensagemInicial()
@@ -13,7 +13,7 @@ function exibirTexto(tag,texto) {
 
 function mensagemInicial() {
     exibirTexto ("h1","O jogo do número secreto");
-    exibirTexto ("p", "Tente acertar os números de 1 a 10 em seguida");
+    exibirTexto ("p", "Tente acertar os números de 1 a 100 em seguida");
 }
 
 function verificarChute() {
